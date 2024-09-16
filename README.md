@@ -1,2 +1,2 @@
-# weather-website
+# Weather-Website
 Weather Forecast Website
