@@ -1,5 +1,5 @@
 const search = document.getElementById('search')
-const API_KEY = '2reOkMDrpnJ4phfAAKOhJDpyAW8tk4iI'
+const API_KEY = 'gFzgLiPb4JrEy5IxvbvXwxtDUBaGhnUg'
 
 search.addEventListener('click', function(e){
     e.preventDefault()
