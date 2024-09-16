@@ -171,7 +171,7 @@ body{
 @media (max-width: 440px){
     .container{
         width: 365px;
-        height: auto;
+        height: 535px;
     }
 }
 
