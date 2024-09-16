@@ -168,6 +168,12 @@ body{
     font-weight: 400;
 }
 
+@media (max-width: 440px){
+    .container{
+        width: 365px;
+        height: auto;
+    }
+}
 
 
 
