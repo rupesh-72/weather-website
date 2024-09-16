@@ -12,7 +12,7 @@ search.addEventListener('click', function(e){
 })
 
 function getLocationKey(location){
-    const locationKey = `http://dataservice.accuweather.com/locations/v1/cities/search/?apikey=${API_KEY}&q=${location}`
+    const locationKey = `https://dataservice.accuweather.com/locations/v1/cities/search/?apikey=${API_KEY}&q=${location}`
 
     fetch(locationKey)
     .then((response) => {
@@ -34,7 +34,7 @@ function getLocationKey(location){
 }
 
 function getWeather(key){
-    const currentCondition = `http://dataservice.accuweather.com/currentconditions/v1/${key}?apikey=${API_KEY}&details=true`
+    const currentCondition = `https://dataservice.accuweather.com/currentconditions/v1/${key}?apikey=${API_KEY}&details=true`
 
     fetch(currentCondition)
     .then((res) => {
